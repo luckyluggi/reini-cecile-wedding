@@ -53,7 +53,7 @@ function ImageSlider({images}: ImageSliderProps) {
         <div className="carousel-inner" ref={carouselImages}>
           {images.map((image, i) => {
             return (
-              <div className={"item" + (i === 0 ? " active" : "")} key={i} style={{backgroundImage: `url(${image})`}}></div>
+              <div className={"item" + (i === 0 ? " active" : "")} key={i} style={{backgroundImage: `url(${image.src})`}}></div>
             );
           })}
         </div>
