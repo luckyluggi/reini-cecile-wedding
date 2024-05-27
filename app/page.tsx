@@ -22,7 +22,7 @@ export default function HomePage() {
 
   const [isVerified, setIsVerified] = useState(false);
   const Login = () => {
-    if (value.toLowerCase() === "pwd") { 
+    if (value.toLowerCase() === "cr4eae") { 
       setIsVerified(true);
     } else {
       setMessage("Nice try 😂");
