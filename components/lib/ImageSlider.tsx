@@ -1,8 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
 import "./ImageSlider.css"
+import { StaticImageData } from 'next/image';
 
 interface ImageSliderProps  { 
-  images: string[]
+  images: StaticImageData[]
 }
 
 
