@@ -1,0 +1,70 @@
+.carousel {
+  position: relative;
+  aspect-ratio: 16 / 9;
+}
+.carousel .carousel-inner .item {
+  padding-bottom: 0;
+  /* display: none; */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.carousel .carousel-inner .item.active {
+  display: block;
+  opacity: 1;
+}
+.carousel .carousel-inner img {
+  position: static;
+}
+.carousel-inner img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  -webkit-transition: 0.25s opacity ease;
+  -o-transition: 0.25s opacity ease;
+  transition: 0.25s opacity ease;
+}
+
+/* CONTROLS */
+.c-controls {
+  position: absolute;
+  top: calc(50% - 20px);
+  margin: 0;
+  background: black;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  z-index: 2;
+  line-height: 1;
+  transition: all 0.3s ease;
+  opacity: 0.5;
+  border-radius: 4px;
+}
+.c-controls:hover {
+  opacity: 1;
+  background-color: var(--color-primary);
+}
+
+.c-controls.next {
+  right: 0;
+  transform: translateX(calc(100% + 5px));
+}
+.c-controls.next:after {
+  content: "\279C";
+}
+.c-controls.prev {
+  left: 0;
+  transform: rotate(180deg) translateX(calc(100% + 5px));
+}
+.c-controls.prev:after {
+  content: "\279C";
+}

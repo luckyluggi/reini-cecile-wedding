@@ -1,0 +1,17 @@
+.input-button-group{
+  border-radius: 999px;
+  display: flex;
+  align-items: stretch;
+  overflow: hidden;
+}
+.input-button-group input{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  flex-grow: 1;
+  border: none;
+}
+.input-button-group button{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border: none;
+}
