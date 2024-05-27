@@ -8,6 +8,7 @@ import Container from '../components/lib/Container';
 import InputButtonGroup from '../components/lib/InputButtonGroup';
 import Alert from '../components/lib/Alert';
 import SuccessView from '../components/SuccessView';
+import loginImage from "../public/images/login-image.jpg";
 
 export default function HomePage() {
   
@@ -34,7 +35,7 @@ export default function HomePage() {
   } else {
     content = 
     <Container>
-        <Card images={[`/images/login-image.jpg`]} maxWidth='400px'>
+        <Card images={[loginImage]} maxWidth='400px'>
           <p  className='mt-0'>
             <strong>Hallo Cecile, hallo Reini</strong><br />
             Den Code findet ihr in der Boulderwand.

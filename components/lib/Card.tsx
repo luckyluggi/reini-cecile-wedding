@@ -1,11 +1,12 @@
 import React from 'react';
 import "./Card.css"
 import ImageSlider from './ImageSlider';
+import { StaticImageData } from 'next/image';
 
 interface CardProps  { 
   children: React.ReactNode,
   maxWidth?: string
-  images?: string[]
+  images?: StaticImageData[]
 }
 
 function Card({children, images, maxWidth}: CardProps) {

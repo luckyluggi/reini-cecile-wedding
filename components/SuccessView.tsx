@@ -2,12 +2,13 @@ import React from 'react';
 import "./SuccessView.css"
 import Card from './lib/Card';
 import Container from './lib/Container';
+import ecampleImage1 from "../public/images/example-1.jpg";
+import ecampleImage2 from "../public/images/example-2.jpg";
+import ecampleImage3 from "../public/images/example-3.jpg";
 
 
 const images = [
-  `/images/example-1.jpg`,
-  `/images/example-2.jpg`,
-  `/images/example-3.jpg`
+  ecampleImage1, ecampleImage2, ecampleImage3
 ];
 
 interface AlertProps  { 
