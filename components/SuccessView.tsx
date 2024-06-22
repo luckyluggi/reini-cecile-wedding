@@ -47,6 +47,8 @@ import ecampleImage39 from "../public/images/rc-wedding-39.jpg";
 
 import ecampleImage40 from "../public/images/rc-wedding-40.jpg";
 import ecampleImage41 from "../public/images/rc-wedding-41.jpg";
+import ecampleImage42 from "../public/images/rc-wedding-42.jpg";
+import ecampleImage43 from "../public/images/rc-wedding-43.jpg";
 
 
 const images = [
@@ -95,6 +97,8 @@ const images = [
   
   ecampleImage40,
   ecampleImage41,
+  ecampleImage42,
+  ecampleImage43,
 ];
 
 interface AlertProps  { 
